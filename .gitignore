@@ -1,0 +1,5 @@
+site/
+venv/
+.venv/
+__pycache__/
+.ds_store

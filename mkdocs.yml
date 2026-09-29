@@ -1,0 +1,22 @@
+site_name: Discord Scripting Language Docs
+site_description: Official documentation for our Discord scripting language.
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.expand
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Discord:
+    - Getting Started:
+        - Quick Start: discord/quickstart.md
+    - Functions:
+        - Overview: discord/overview.md
+        - Embed Functions: discord/embeds.md
+        - Messaging: discord/messaging.md
