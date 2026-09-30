@@ -1,0 +1,91 @@
+[
+  {
+    "tag": "$title[text]",
+    "description": "Sets the title of an embed.",
+    "arguments": [
+      {
+        "name": "text",
+        "description": "The title text to display.",
+        "type": "String",
+        "required": true,
+        "empty": false
+      }
+    ]
+  },
+  {
+    "tag": "$description[text]",
+    "description": "Sets the main body content of an embed.",
+    "arguments": [
+      {
+        "name": "text",
+        "description": "The main content text.",
+        "type": "String",
+        "required": true,
+        "empty": false
+      }
+    ]
+  },
+  {
+    "tag": "$footer[text;footer icon]",
+    "description": "Sets the footer text and optional icon for an embed.",
+    "longDescription": "Adds footer text and an optional icon image URL at the bottom of an embed.",
+    "arguments": [
+      {
+        "name": "text",
+        "description": "The footer text.",
+        "type": "String",
+        "required": true,
+        "empty": false
+      },
+      {
+        "name": "footer icon",
+        "description": "Direct URL to a footer icon image.",
+        "type": "URL",
+        "required": false,
+        "empty": true
+      }
+    ]
+  },
+  {
+    "tag": "$thumbnail[image url]",
+    "description": "Sets the thumbnail image for an embed.",
+    "longDescription": "Displays a small thumbnail image in the top-right corner of the embed.",
+    "arguments": [
+      {
+        "name": "image url",
+        "description": "Direct URL to the thumbnail image.",
+        "type": "URL",
+        "required": true,
+        "empty": false
+      }
+    ]
+  },
+  {
+    "tag": "$image[image url]",
+    "description": "Sets the main full-sized image for an embed.",
+    "longDescription": "Displays a full-sized banner image at the bottom of the embed.",
+    "arguments": [
+      {
+        "name": "image url",
+        "description": "Direct URL to the banner image.",
+        "type": "URL",
+        "required": true,
+        "empty": false
+      }
+    ]
+  },
+  {
+    "tag": "$sendMessage[text]",
+    "description": "Sends a standard text message to the channel.",
+    "longDescription": "Sends a text message or delivers constructed embed elements to the channel.",
+    "arguments": [
+      {
+        "name": "text",
+        "description": "The message content to deliver.",
+        "type": "String",
+        "required": true,
+        "empty": false
+      }
+    ]
+  }
+]

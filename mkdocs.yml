@@ -1,5 +1,5 @@
-site_name: Discord Scripting Language Docs
-site_description: Official documentation for our Discord scripting language.
+site_name: Bot House
+site_description: Official documentation for Bot House.
 theme:
   name: material
   palette:
@@ -11,12 +11,19 @@ theme:
     - navigation.sections
     - content.code.copy
 
+extra:
+  api: api/
+
 nav:
   - Home: index.md
   - Discord:
+    - Home: discord/index.md
     - Getting Started:
         - Quick Start: discord/quickstart.md
     - Functions:
         - Overview: discord/overview.md
         - Embed Functions: discord/embeds.md
         - Messaging: discord/messaging.md
+  - Api:
+    - Home: api/index.md
+    - Discord Functions: api/discord/cmd.json

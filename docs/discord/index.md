@@ -1,6 +1,6 @@
-# Welcome to Discord Script Syntax Documentation
+# Welcome to BHScript!
 
-Welcome to the official documentation for the Discord scripting language! This language allows you to build powerful Discord bot responses using simple, readable function syntax.
+Welcome to the official documentation for the Bot House! This language allows you to build powerful Discord bot responses using simple, readable function syntax.
 
 ## Features
 
@@ -10,11 +10,11 @@ Welcome to the official documentation for the Discord scripting language! This l
 
 ## Quick Example
 
-```bdscript
+```bhscript
 $title[Hello World!]
 $description[This is my very first Discord script!]
 $footer[Powered by Discord Scripting;https://example.com/icon.png]
 $sendMessage[Check out this cool response!]
 ```
 
-Get started by checking out the [Quick Start Guide](getting-started/quickstart.md) or dive straight into the [Embed Functions Overview](functions/embeds.md).
+Get started by checking out the [Quick Start Guide](quickstart.md) or dive straight into the [Embed Functions Overview](embeds.md).

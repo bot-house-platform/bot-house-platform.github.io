@@ -19,7 +19,7 @@ $functionName[arg1;arg2;...]
 
 To send an embed response, combine embed structure functions with a message trigger:
 
-```bdscript
+```bhscript
 $title[Welcome Server Member!]
 $description[We are glad to have you here.]
 $thumbnail[https://example.com/welcome-avatar.png]
