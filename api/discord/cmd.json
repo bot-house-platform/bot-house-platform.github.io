@@ -28,7 +28,6 @@
   {
     "tag": "$footer[text;footer icon]",
     "description": "Sets the footer text and optional icon for an embed.",
-    "longDescription": "Adds footer text and an optional icon image URL at the bottom of an embed.",
     "arguments": [
       {
         "name": "text",
@@ -49,7 +48,6 @@
   {
     "tag": "$thumbnail[image url]",
     "description": "Sets the thumbnail image for an embed.",
-    "longDescription": "Displays a small thumbnail image in the top-right corner of the embed.",
     "arguments": [
       {
         "name": "image url",
@@ -63,7 +61,6 @@
   {
     "tag": "$image[image url]",
     "description": "Sets the main full-sized image for an embed.",
-    "longDescription": "Displays a full-sized banner image at the bottom of the embed.",
     "arguments": [
       {
         "name": "image url",
@@ -77,7 +74,6 @@
   {
     "tag": "$sendMessage[text]",
     "description": "Sends a standard text message to the channel.",
-    "longDescription": "Sends a text message or delivers constructed embed elements to the channel.",
     "arguments": [
       {
         "name": "text",
@@ -85,6 +81,37 @@
         "type": "String",
         "required": true,
         "empty": false
+      }
+    ]
+  },
+  {
+    "tag": "$authorID",
+    "description": "Returns the Discord ID of the message author.",
+    "arguments": []
+  },
+  {
+    "tag": "$username[userID]",
+    "description": "Retrieves a user's account username.",
+    "arguments": [
+      {
+        "name": "userID",
+        "description": "Target user's snowflake ID.",
+        "type": "Number",
+        "required": false,
+        "empty": true
+      }
+    ]
+  },
+  {
+    "tag": "$displayName[userID]",
+    "description": "Retrieves a user's display name or nickname.",
+    "arguments": [
+      {
+        "name": "userID",
+        "description": "Target user's snowflake ID.",
+        "type": "Number",
+        "required": false,
+        "empty": true
       }
     ]
   }
