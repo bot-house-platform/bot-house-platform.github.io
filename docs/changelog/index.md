@@ -8,6 +8,9 @@ Click [here](changelog-list.md) to get access to older changelogs.
 
 ### Added
 - Changelogs.
+- [$authorID](../discord/user.md/#authorid)
+- [$username](../discord/user.md/#username)
+- [$displayName](../discord/user.md/#displayname)
 
 ## [0.0.2] 2026-09-30
 
@@ -17,8 +20,8 @@ Click [here](changelog-list.md) to get access to older changelogs.
 ## [0.0.1] 2026-09-29
 
 ### Added
-- [$title[]](../discord/embeds/#title)
-- [$description[]](../discord/embeds/#description)
-- [$footer[]](../discord/embeds/#footer)
-- [$thumbnail[]](../discord/embeds/#thumbnail)
-- [$image[]](../discord/embeds/#image)
+- [$title[]](../discord/embeds.md/#title)
+- [$description[]](../discord/embeds.md/#description)
+- [$footer[]](../discord/embeds.md/#footer)
+- [$thumbnail[]](../discord/embeds.md/#thumbnail)
+- [$image[]](../discord/embeds.md/#image)
