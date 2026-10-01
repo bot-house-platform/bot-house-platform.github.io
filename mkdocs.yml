@@ -10,12 +10,18 @@ theme:
     - navigation.expand
     - navigation.sections
     - content.code.copy
+    - toc.integrate
+
+markdown_extensions:
+  - toc:
+      toc_depth: 2
 
 extra:
   api: api/
 
 nav:
   - Home: index.md
+  - Changelog: changelog/index.md
   - Discord:
     - Home: discord/index.md
     - Getting Started:
@@ -24,6 +30,7 @@ nav:
         - Overview: discord/overview.md
         - Embed Functions: discord/embeds.md
         - Messaging: discord/messaging.md
+        - User: discord/user.md
   - Api:
     - Home: api/index.md
     - Discord Functions: api/discord/cmd.json
